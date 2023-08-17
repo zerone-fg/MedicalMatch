@@ -19,10 +19,10 @@ from util.utils import AverageMeter, count_params, init_log, DiceLoss
 
 parser = argparse.ArgumentParser(
     description='Revisiting Weak-to-Strong Consistency in Semi-Supervised Semantic Segmentation')
-parser.add_argument('--config', default="D:/UniMatch-main/more-scenarios/medical/configs/acdc.yaml")
-parser.add_argument('--labeled-id-path', default="D:/UniMatch-main/more-scenarios/medical/splits/acdc/3/labeled.txt")
+parser.add_argument('--config', default="./configs/acdc.yaml")
+parser.add_argument('--labeled-id-path', default="./splits/acdc/3/labeled.txt")
 parser.add_argument('--unlabeled-id-path',
-                    default="D:/UniMatch-main/more-scenarios/medical/splits/acdc/3/unlabeled.txt")
+                    default="./splits/acdc/3/unlabeled.txt")
 parser.add_argument('--save-path', default="./save_87_multi_max_3_onlysup/")
 parser.add_argument('--local_rank', default=0, type=int)
 parser.add_argument('--port', default=None, type=int)
