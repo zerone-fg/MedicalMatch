@@ -12,7 +12,7 @@ from scipy.ndimage import zoom
 from scipy.ndimage.interpolation import zoom
 from tqdm import tqdm
 import yaml
-from model.unet_multi_self_cross import UNet
+from model.unet_multiscale_self_cross import UNet
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--root_path', type=str,
