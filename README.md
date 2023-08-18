@@ -1,6 +1,6 @@
 # MedicalMatch  
 
-The code is for paper: MedicalMatch: Rethinking Weak-to-strong Consistency Framework from a Correlation Perspective for Semi-supervised Medical Image Segmentation
+The code is for paper: MedicalMatch: Rethinking Weak-to-strong Consistency Framework from a Correlation Perspective for Semi-supervised Medical Image Segmentation.
 ## 1.Dataset
 Experiments are conducted on three public datasets: **ACDC** , **Synapse** and **ISIC**.
 - **ACDC**  
@@ -9,12 +9,12 @@ More details about the dataset split and implementation details will be released
 Refer to this [link](https://github.com/LiheYoung/UniMatch/tree/main/more-scenarios/medical) and download ACDC dataset.
 
 - **ISIC**
-We divided the dataset into 1838 and 756 images for training and validation, respectively. Then, we validate MedicalMatch under 3\% and 10\% labeled.
+We divide the dataset into 1838 and 756 images for training and validation, respectively. Then, we validate MedicalMatch under 3\% and 10\% labeled.
 We will upload the processed dataset later.  
 
 
 - **Synapse**
-  Download from the link provided by : [TransUnet](https://github.com/Beckschen/TransUNet)
+Download from the link provided by : [TransUnet](https://github.com/Beckschen/TransUNet).
 
 ## 2.Enviorments
 - python 3.7
@@ -27,11 +27,13 @@ For example, we can train a model on ACDC dataset by:
 ```
 python train_MedicalMatch.py
 ```
+Then evaluate by:  
+
 ```
 python test_MedicalMatch.py
 ```
   
-**Note that all of our settings are the same with [SSL4MIS](https://github.com/HiLab-git/SSL4MIS)**  
+**Note that all of our settings are the same with [SSL4MIS](https://github.com/HiLab-git/SSL4MIS)**  .
 
 ## 4.Reference
 - [SSL4MIS](https://github.com/HiLab-git/SSL4MIS)
