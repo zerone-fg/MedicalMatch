@@ -11,7 +11,7 @@ Refer to this [link](https://github.com/LiheYoung/UniMatch/tree/main/more-scenar
 
 - **ISIC**
 
-: We divide the dataset into 1838 and 756 images for training and validation, respectively. Then, we validate MedicalMatch under 3\% and 10\% labeled.
+We divide the dataset into 1838 and 756 images for training and validation, respectively. Then, we validate MedicalMatch under 3\% and 10\% labeled.
 We will upload the processed dataset later.  
 
 
