@@ -1,6 +1,6 @@
 # MedicalMatch  
 
-The code is for paper: 
+The code is for paper: MedicalMatch: Rethinking Weak-to-strong Consistency Framework from a Correlation Perspective for Semi-supervised Medical Image Segmentation
 ## 1.Dataset
 Experiments are conducted on three public datasets: **ACDC** , **Synapse** and **ISIC**.
 - **ACDC**  
@@ -15,7 +15,7 @@ We will upload the processed dataset later.
 
 - **Synapse**  
 We divided the dataset into  and  images for training and validation, respectively.  
-1. Download from: [])  
+1. Download from the link provided by : [TransUnet](https://github.com/Beckschen/TransUNet)
 
 ## 2.Enviorments
 - python 3.7
